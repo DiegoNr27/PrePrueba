@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+                <li class="nav-item"><a class="nav-link" href="#ofertas">Ofertas</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<header id="inicio" class="bg-secondary p-5 text-center text-white">
+    <h1>Deportes</h1>
+</header>
+
+<!-- SECCIÓN OFERTAS -->
+<section id="ofertas" class="container my-5">
+    <h2 class="text-center mb-4">Ofertas Especiales</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="alert alert-success">
+                <h4>Pelotas de futbol</h4>
+                <p>¡Compra 1 y te llevas 2 gratis!</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="alert alert-warning">
+                <h4>Descuento del 50%</h4>
+                <p>En todo boxeo.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="alert alert-info">
+                <h4>25% De descuento</h4>
+                <p>en accesorios.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="galeria" class="container my-5">
+    <h2 class="text-center mb-4">Galería de Imágenes</h2>
+    <div class="row">
+        <div class="col-md-4 mb-3">FUTBOL</div>
+        <div class="col-md-4 mb-3">BOXEO</div>
+        <div class="col-md-4 mb-3">TENIS</div>
+    </div>
+</section>
+
+
+<main class="container">
+    <div class="row mt-5 text-center"> 
+        <div class="col-4" style="width: 25rem;">
+            <div class="card">
+                <img src="foto1.png" class="card-top-img"  height="300" alt="">
+                <div class="card-title">
+                    <h3>Futbol</h3>
+                </div>
+                <div class="card-body">
+                    Pelotas de futbol
+                </div>
+                <div class="card-footer">
+                    <a href="https://tienda.colocolo.cl/" target="_blank" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4" style="width: 25rem;">
+            <div class="card">
+                <img src="foto2.png" class="card-top-img" height="300" alt="">
+                <div class="card-title">
+                    <h3>Boxeo</h3>
+                </div>
+                <div class="card-body">
+                    Articulos de boxeo
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.decathlon.cl/4891-boxeo" target="_blank" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4"  style="width: 25rem;"> 
+            <div class="card">
+                <img src="foto3.jpg" class="card-top-img"  height="300" alt="">
+                <div class="card-title">
+                    <h3>Tenis</h3>
+                </div>
+                <div class="card-body">
+                    accesorios para tenis
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.freepik.es/vectores/raqueta-tenis-png" target="_blank" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="bg-dark p-5 text-white mt-5 text-center">
+    <h3> Diego Jimenez</h3>
+    <h3> Ingenieria en informatica</h3>
+    <h3> Diego.jimenez40@inacapmail.cl</h3>
+    <h3> Github</h3>
+    <h3 class="text-primary"> <a  class="nav-link" href="https://github.com/DiegoNr27/Estudent" >Repositorio</a></h3>
+    <img src="img/Ft.png" width="200">
+</footer>
+
+</body>
+</html>
